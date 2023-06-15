@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/style.css" />  
+  <title>The Weather DashBoard</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1>The Weather DashBoard</h1>
+    </div>
+  </header>
+<!-- Main Container -->
+<div class="main-container">
+    
+<!-- Search Container -->
+  <section class="search-container">
+    <div class="container">
+      <div class="main-heading">
+        <h1>Search for a City</h1>
+      </div>
+  
+      <div class="search-box">
+        <input type="text" class="search-input" id="city-input" placeholder="Enter a City name">
+        <button class="search-button">Search</button>
+      </div>
+      <div class="error">
+        <p>Please enter a valid City Name</p>
+      </div>
+  
+      <div class="info-container" id="city-list">
+        <div class="city-item-container"></div>
+        </div>
+      </div>
+  </section>
+
+<!-- Current Weather Container -->
+  <section class="current-weather-container">
+    <div class="weather-card">      
+      <img src="" class= "weather-icon">
+      <h1 class= "temp">00°F</h1>
+      <h2 class="city">City</h2>
+        <div class="details">
+          <div class="col-humidity">          
+            <div>
+              <p class="humidity">100%</p>
+              <p>Humidity</p>
+            </div>
+          </div>  
+          <div class="col-wind">
+            <div>
+              <p class="wind">10 k/h</p>
+              <p>Wind</p>
+            </div>
+          </div>
+       </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Forecast Container -->
+  <section class="second-container hidden">
+    <div class="forecast-container">
+      <div class="forecast-card">            
+        <img class="forecast-icon" src="" alt="Weather Icon">
+        <h3 class="forecast-date">Monday</h3>
+        <p class="forecast-temp">80°F</p>
+        <p class="forecast-humidity">100%</p>
+        <p class="forecast-wind">10 km/h</p>
+      </div>
+    </div>
+
+    <div class="forecast-container">
+      <div class="forecast-card">      
+        <img class="forecast-icon" src="" alt="Weather Icon">
+        <h3 class="forecast-date">Tuesday</h3>
+        <p class="forecast-temp">80°F</p>
+        <p class="forecast-humidity">100%</p>
+        <p class="forecast-wind">10 km/h</p>
+      </div>
+    </div>
+
+    <div class="forecast-container">
+      <div class="forecast-card">      
+        <img class="forecast-icon" src="" alt="Weather Icon">
+        <h3 class="forecast-date">Wednesday</h3>
+        <p class="forecast-temp">80°F</p>
+        <p class="forecast-humidity">100%</p>
+        <p class="forecast-wind">10 km/h</p>
+      </div>
+    </div>
+
+    <div class="forecast-container">
+      <div class="forecast-card">    
+        <img class="forecast-icon" src="" alt="Weather Icon">    
+        <h3 class="forecast-date">Thursday</h3>
+        <p class="forecast-temp">80°F</p>
+        <p class="forecast-humidity">100%</p>
+        <p class="forecast-wind">10 km/h</p>
+      </div>
+    </div>
+
+    <div class="forecast-container">
+      <div class="forecast-card">
+        <img class="forecast-icon" src="" alt="Weather Icon">
+        <h3 class="forecast-date">Friday</h3>
+        <p class="forecast-temp">80°F</p>
+        <p class="forecast-humidity">100%</p>
+        <p class="forecast-wind">10 km/h</p>
+      </div>
+    </div> 
+  </section>
+
+<script src="./assets/script.js"></script>  
+</body>
+
+</html>
