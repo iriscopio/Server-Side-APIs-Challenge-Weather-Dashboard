@@ -39,7 +39,7 @@ Some of the references used during the project:
 
 
 * https://openweathermap.org/
-* https://.w3schools.com/
+* https://w3schools.com/
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 * https://www.codecademy.com/
 
